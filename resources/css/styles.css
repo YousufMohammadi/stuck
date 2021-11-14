@@ -32,7 +32,7 @@
      display: inline-block;
      
  }
- ul li a{
+ ul li .main-link{
      text-decoration: none;
      color: #F7F4E9;
      font-size: 20px;
@@ -41,7 +41,7 @@
      border-radius: 10px;
      
  }
-ul li a:hover{
+ul li .main-link:hover{
     background-color: #438945;
     transition: background-color 0.5s;
     padding: 9px 40px;
@@ -105,4 +105,45 @@ ul li a:hover{
     padding-top: 15px;
     font-weight: 400;
     font-size: 24px;
+}
+footer{
+    background-color: #1D1D2C;
+    padding: 20px;
+    width: 100%;
+}
+.social img{
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+.social img:hover{
+    opacity: 0.6
+}
+.social .social-link{
+    margin-left: 5px;
+}
+.more-info{
+    /* margin-right: auto; */
+    /* margin-left: auto; */
+    text-align: center;
+    float:right;
+}
+.more-info a{
+    color: #F7F4E9;
+    text-decoration: none;
+    direction: rtl;
+    margin-right: 25px;
+}
+.more-info a:hover{
+   color: rgba(185, 177, 177, 0.849);
+}
+.scroll{
+    float: right;
+
+}
+.scroll img{
+    width: 40px;
+    height: 40px;
+    float: right;
+    
 }
