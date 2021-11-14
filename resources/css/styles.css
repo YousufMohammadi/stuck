@@ -74,3 +74,35 @@ ul li a:hover{
     top: 50%;
     transform: translate(50%, -50%);
 }
+.section-group{
+    background-color: #c4c2c3da;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.span-1-of-4{
+    background-color: #EBA63F;
+    padding: 60px;
+    color: #F7F4E9;
+    text-align: center;
+    border-radius: 10px;
+    text-align: center;
+}
+.span-1-of-4 h2{
+    border-bottom: 2px solid #c0beb7;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    
+}
+.span-1-of-4:hover{
+    background-color: #438945;
+    transition:background-color 0.5s;
+}
+.span-1-of-4 img{
+    width: 100px;
+    height: 100px;
+}
+.span-1-of-4 p{
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: 24px;
+}
