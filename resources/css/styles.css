@@ -14,6 +14,9 @@
  body{
     padding: 1%;
  }
+ /*--------------------------*/
+ /* header                   */
+ /*--------------------------*/
  header{
      width: 100%;
      position:absolutes;
@@ -74,6 +77,9 @@ ul li .main-link:hover{
     top: 50%;
     transform: translate(50%, -50%);
 }
+ /*--------------------------*/
+ /* section-one              */
+ /*--------------------------*/
 .section-group{
     background-color: #c4c2c3da;
     padding-left: 1%;
@@ -106,6 +112,9 @@ ul li .main-link:hover{
     font-weight: 400;
     font-size: 24px;
 }
+ /*--------------------------*/
+ /* footer                   */
+ /*--------------------------*/
 footer{
     background-color: #1D1D2C;
     padding: 20px;
@@ -146,4 +155,72 @@ footer{
     height: 40px;
     float: right;
     
+}
+.scroll img:hover{
+    opacity: 0.6;
+}
+/*--------------------------*/
+ /* drug-list               */
+ /*-------------------------*/
+ .drug-list{
+     padding: 5%;
+     background-color: rgb(247, 245, 245);
+     direction: rtl;
+     border-left: 2px solid rgba(0, 255, 128, 0.699);
+     border-right: 2px solid rgba(0, 255, 128, 0.699);
+ }
+ .drug-list h2{
+     color: #099299;
+     background-color: #1D1D2C;
+     padding: 10px;
+     border-radius: 10px;
+ }
+ .drug-list span{
+     margin-right: 40px;
+     color: #F7F4E9;
+ }
+ table,th,tr,td{
+     border: 1px solid springgreen;
+     text-align: center;
+ }
+ table{
+    width: 100%;
+    color: #F7F4E9;
+}
+th,td{
+    padding: 15px;
+    font-size: 16px;
+    
+}
+td .edit,.delete{
+    padding:10px 20px;
+    text-decoration: none;
+    color: #F7F4E9;
+    border-radius: 10px;
+    margin: 1px;
+}
+td .edit{
+    background-color: #438945;
+}
+td .edit:hover{
+    background-color: #357537;
+    transition: background-color 0.5s;
+}
+td .delete{
+    background-color: #E40C2B;
+}
+td .delete:hover{
+    background-color: #b90b25;
+    transition: background-color 0.5s;
+}
+th{
+    background-color: #099299;
+    font-weight: 800;
+    font-size: 20px;
+}
+tr:nth-child(odd){
+    background-color: #0a0a18a6;
+}
+tr:nth-child(even){
+    background-color: #1d1d2c54;
 }
