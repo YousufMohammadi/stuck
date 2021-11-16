@@ -11,9 +11,6 @@
      box-sizing: border-box;
      font-family:Arial, Helvetica, sans-serif;
  }
- /* body{
-    padding: 1%;
- } */
  /*--------------------------*/
  /* header                   */
  /*--------------------------*/
@@ -24,7 +21,6 @@
 
  }
  .head{
-     /* position: fixed; */
      color: #F7F4E9;
      direction: rtl;
      padding: 40px;
@@ -49,17 +45,24 @@ ul li .main-link:hover{
     transition: background-color 0.5s;
     padding: 9px 40px;
     box-shadow: 2px 4px rgba(161, 177, 18, 0.8);
+    /* box-shadow: 0 0 1rem rgba(161, 177, 18, 0.8); */
    
+}
+ /*--------------------------*/
+ /* drugs image              */
+ /*--------------------------*/
+ .drug-img{
+    background-image: url("../../vendors/icon/head-bg.svg");   
+}
+.backimg{
+    background-image: url("../../vendors/icon/backimg.svg");
 }
 .backimg,.drug-img{
     background-color: #1D1D2C;
     background-size: cover;
     background-position: center;
-    /* opacity: 0.7; */
     width: 100%;
     height: 80vh;
-    border-right:3px solid #E40C2B;
-    border-left:3px solid #E40C2B;
     position: relative;
 
 }
@@ -76,16 +79,7 @@ ul li .main-link:hover{
     top: 50%;
     transform: translate(50%, -50%);
 }
- /*--------------------------*/
- /* drugs image              */
- /*--------------------------*/
-.drug-img{
 
-        background-image: url("../../vendors/img/head-bg.jpg");   
-}
-.backimg{
-    background-image: url("../../vendors/icon/backimg.svg");
-}
  /*--------------------------*/
  /* section-one              */
  /*--------------------------*/
@@ -95,7 +89,7 @@ ul li .main-link:hover{
     padding-right: 1%;
 }
 .span-1-of-4{
-    background-color: #EBA63F;
+    background-color: #438945;
     padding: 60px;
     color: #F7F4E9;
     text-align: center;
@@ -109,7 +103,7 @@ ul li .main-link:hover{
     
 }
 .span-1-of-4:hover{
-    background-color: #438945;
+    background-color: #b90b25;
     transition:background-color 0.5s;
 }
 .span-1-of-4 img{
@@ -173,10 +167,8 @@ footer{
  /*-------------------------*/
  .drug-list{
      padding: 5%;
-     background-color: rgb(247, 245, 245);
+     background-color: rgba(22, 4, 4, 0.938);
      direction: rtl;
-     border-left: 2px solid rgba(0, 255, 128, 0.699);
-     border-right: 2px solid rgba(0, 255, 128, 0.699);
  }
  .drug-list h2{
      color: #099299;
@@ -188,8 +180,8 @@ footer{
      margin-right: 40px;
      color: #F7F4E9;
  }
- table,th,tr,td{
-     border: 1px solid springgreen;
+ table{
+     border: 1px solid rgba(1, 3, 2, 0.781);
      text-align: center;
  }
  table{
@@ -233,3 +225,53 @@ tr:nth-child(odd){
 tr:nth-child(even){
     background-color: #1d1d2c54;
 }
+/*--------------------------*/
+ /* add-drugs               */
+ /*-------------------------*/
+ .form{
+    background: linear-gradient(110deg, #5f0714 40%, #cc0b28 50%);
+     width: 100%;
+     height: 100vh;
+     color: #c0beb7;
+     text-align: center;
+     direction: rtl;
+     padding-top: 3%;
+ }
+ .form h2{
+     color: #F7F4E9;
+     background: linear-gradient(110deg, #EBA63F 40%, #438945 50%);
+     padding: 30px;
+     margin: 0 auto 30px auto;
+     width: 30%;
+     border-radius: 10px;
+ }
+ input{
+     width: 30%;
+     float:right;
+     padding: 10px;
+     font-size: 16px;
+     top: 60%;
+     transform: translate(-117%,-30%);
+     border: none;
+     border-radius: 10px;
+ }
+
+ .btn-add{
+     background-color: #438945;
+     color: #F7F4E9;
+
+     cursor: pointer;
+ }
+ .btn-add:hover{
+     background-color: #236925;
+ }
+ .btn-no{
+    background-color: #EBA63F;
+    color: #F7F4E9;
+   
+    cursor: pointer;
+
+ }
+ .btn-no:hover{
+     background-color: #e9920f;
+ }
